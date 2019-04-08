@@ -1,0 +1,17 @@
+[package]
+name = "gl-lite"
+version = "0.1.0"
+authors = ["Andrew Imm <aimm22@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "gllite"
+path = "src/lib.rs"
+
+[[bin]]
+name = "demo"
+path = "examples/demo/main.rs"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+gl = "0.11.0"
+glutin = "0.20.0"
