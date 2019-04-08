@@ -1,7 +1,9 @@
 [package]
 name = "gl-lite"
+description = "Wrappers around common GL objects and methods"
 version = "0.1.0"
 authors = ["Andrew Imm <aimm22@gmail.com>"]
+license = "MIT"
 edition = "2018"
 
 [lib]
